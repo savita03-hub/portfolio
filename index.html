@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savita - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" ><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">SKILLS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+<div class="text-box">
+    <h3>Hello, my name is </h3>  
+    <h1>Savita</h1>
+    <p>And I'm student of 
+    <br>National Institute of Technology, Patna</p> 
+    <br>
+    <a href="" class="me"> About me</a>
+
+    
+</div>
+        
+        
+        
+</section>
+<br> <br>  
+    <h1> About me</h1>
+    <p>I introduce myself as Savita, a third -year student of Computer science and engineering at NIT PATNA,I am a consistent and sincere student having a CGPA of 8.05(up to 5th semester). I developed my research and engineering skills through different workshops and academic projects. My coding skills in languages like C++, C and basic PYTHON will help me in better learning. In the college, I have balanced a rigorous course load and a number of extracurricular activities that have allowed me to enhance my skills. I have done my Minor Project in the machine learning. I have also completed an online python course under the NPTEL certification. Thank you for your time.</p>
+<div class="f"> 
+    <a href="images\Resume .pdf" download="Resume.pdf" class="dr"> Download Resume</a>
+</div> 
+    
+<!------ Projects made by me ----->
+    <br><br><br>
+<section class="projects">
+    <h1>Projects made by me</h1>
+    
+    <div class="row">
+        <div class="project-col">
+            <h3>Hate-And-Offensive-Speech-Detection</h3>
+            <p>• Developed an machine learning project  in python to detect publicly available information such as any social media
+comments are hate and offensive or not. <br>
+• Retrieved the data using HASOC english dataset  and applied the operations on them and displayed it in the form of graphs and charts using confusion matrix and accuracy graphs.<br>
+• The custom LSTM (RNN) achieved an accuracy of 65%, where some classes have F1 score of 0 is 73% and for 1 is 52% .<br>
+</p>
+        </div>
+    
+        
+    <div class="project-col">
+            <h3>Vehicle Insurance</h3>
+            <p>• Developed a vehicle insurance blockchain based project which will give the information about the user who is taking insurance or  premium from a company.<br>
+            • This will give the idea of how many people are taking the premium and the duration of that premium.<br>
+            • If user is taking first time insurance they have to give details of themselves and vehicle plate number.<br>
+            • We are developing this by using  solidity in remix ide.<br>  
+
+            </p>
+        </div>
+    </div>
+    
+</section>  
+<section class="skills">
+    <h1>Skills</h1>
+<br>
+   <h4>Expertise Area</h4>   
+<p>Data Structure and Algorithms  </p>
+<h4>Programming Languages and Technologies</h4>  
+<p>C / C++, Java, Python, Android Studio, Git and GitHub, HTML, CSS, C++ Standard Template Library.</p>
+<h4>Technical Courses and Electives </h4>
+ 
+<p>Data Structures and Algorithms, Operating Systems, Database Management Systems, Object Oriented Programming,    Computer Networks. </p>
+<h4>Soft Skills</h4> 
+<p>Teamwork,  Leadership,  Creative Thinking</p><br>
+
+</section>
+  
+ <section class="cn">  
+<div class="first">
+<h3>Contact us</h3>
+<form>      
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />  <br> 
+  <input name="email" type="text" class="feedback-input" placeholder="Email" /><br>
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea><br>
+  <input type="submit" value="SUBMIT"/>
+</form>    
+</div>
+
+    </section> 
+    
+    
+    
+    
+ 
+<!--------------Java Script for toggle menu-------->  
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    
+</script>
+</body>
+</html>
